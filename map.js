@@ -17,6 +17,14 @@ const map = new mapboxgl.Map({
   maxZoom: 18, // Maximum allowed zoom
 });
 
+map.scrollZoom.enable();
+map.boxZoom.enable();
+map.dragRotate.enable();
+map.dragPan.enable();
+map.keyboard.enable();
+map.doubleClickZoom.enable();
+map.touchZoomRotate.enable();
+
 // mapbox://styles/mapbox/dark-v11
 
 //mapbox://styles/mapbox/navigation-night-v1
